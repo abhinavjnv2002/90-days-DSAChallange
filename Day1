@@ -1,0 +1,14 @@
+Asymptotic notation : ek mathematical tool hai jo kisi algorithm ke running time ko analyze karne me help karta hai.
+  3 types:     i. Big-O Notation (O-notation) ---upper bound  ---worst-case 
+              ii. Omega Notation (Ω-notation) ---lower bound  ---best-case 
+             iii. Theta Notation (Θ-notation) ---upper and lower bound  ---average-case
+
+Properties of Asymptotic Notations: 
+  o General Properties: ---If f(n) is O(g(n)) then a*f(n) is also O(g(n)), where a is a constant. 
+  o Transitive Properties: ---If f(n) is O(g(n)) and g(n) is O(h(n)) then f(n) = O(h(n)).   
+  o Reflexive Properties: ---If f(n) is given then f(n) is O(f(n)).
+  o Symmetric Properties: ---If f(n) is Θ(g(n)) then g(n) is Θ(f(n)).
+  o Transpose Symmetric Properties: ---If f(n) is O(g(n)) then g(n) is Ω (f(n)).
+
+Time complexity: function jo kisi algoritm ko pura run hone me lagne wala amount of time batata hai.
+Space complexity: function jo kisi algoritm ko pura run hone me lagne wala amount of space batata hai.
